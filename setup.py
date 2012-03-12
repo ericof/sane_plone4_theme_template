@@ -1,14 +1,4 @@
-"""
-
-    Declare a Python package yourtheme
-
-    See 
-
-    * http://wiki.python.org/moin/Distutils/Tutorial
-
-    * http://packages.python.org/distribute/setuptools.html#developer-s-guide
-
-"""
+# -*- coding: utf-8 -*-
 
 from distutils.core import setup
 
@@ -22,6 +12,10 @@ setup(name = "yourtheme",
     packages = ['yourtheme'],
     classifiers=[
         "Framework :: Plone",
+        "Framework :: Plone :: 4.1",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Operating System :: OS Independent",
+        "Programming Language :: JavaScript",        
         "Programming Language :: Python",
     ],     
     license="GPL2",
