@@ -1,15 +1,15 @@
+# -*- coding:utf-8 -*-
 """
 
-	For more information see
+  For more information see
 
-	* http://collective-docs.readthedocs.org/en/latest/views/viewlets.html	
+  * http://collective-docs.readthedocs.org/en/latest/views/viewlets.html
 
 """
 
 from five import grok
 
-from interfaces	import IThemeSpecific
+from interfaces import IThemeSpecific
 
 grok.templatedir("templates")
 grok.layer(IThemeSpecific)
-
